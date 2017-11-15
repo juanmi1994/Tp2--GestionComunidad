@@ -51,8 +51,7 @@ if(!$query->param){
      print F "$fecha $vivienda $propietario $cantidad \n";
      close F;
 	
-    # Leer un fichero de texto
-    # Problemas a la hora de imprimir las lineas del archivo de texto
+    # Leer un fichero de texto e imprimir los datos en pantalla
     open F, '/tmp/datos.txt' or die "El archivo no se puede abrir:$!";
     while(<F>) {
     print "$_ <br>";
