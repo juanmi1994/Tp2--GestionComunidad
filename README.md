@@ -10,11 +10,11 @@ poder ejecutar el proyecto.
 
 ### Cómo ejecutar el proyecto
 
-Realizamod clone del proyecto
+Realizamo clone del proyecto
 
 Copiamos el archivo comunidad.pl en la carpeta /usr/lib/cgi-bin/
 
-Nos aseguramos que el archivo tiene los permisos necesarios para poder ejecutarlo, sino se los otrorgamos.
+Nos aseguramos que el archivo tiene los permisos necesarios para poder ejecutarlo, sino se los otorgamos.
 
 En el navegador introducimos localhost/cgi-bin/comunidad.pl
 
