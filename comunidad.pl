@@ -55,7 +55,7 @@ if(!$query->param){
     # Problemas a la hora de imprimir las lineas del archivo de texto
     open F, '/tmp/datos.txt' or die "El archivo no se puede abrir:$!";
     while(<F>) {
-    print "$_ \n";
+    print "$_ <br>";
     }
     close F;
 } 
