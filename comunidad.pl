@@ -48,7 +48,7 @@ if(!$query->param){
     my $cantidad = $query->param('cantidad');
     #guardamos los datos en un fichero de texto
      open F, '>>/tmp/datos.txt' or die "El archivo no se puede abrir:$!";
-     print F "$fecha $vivienda $propietario $cantidad \n";
+     print F "$fecha:$vivienda:$propietario:$cantidad \n";
      close F;
 	
     # Leer un fichero de texto e imprimir los datos en pantalla
